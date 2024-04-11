@@ -1,0 +1,47 @@
+/* Kagabe Rita 222010887 */
+
+
+body {
+    background-color: rgb(251, 220, 175);
+}
+
+.container{
+
+    width: 1250px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.box100{
+ 
+    width: 750px;
+    height: 700px;
+}
+
+
+.box200{
+
+    width: 490px;
+    height: 700px;
+}
+.nav_bar ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.nav_bar li {
+    display: inline;
+}
+
+.nav_bar li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none; 
+    padding: 10px; 
+    margin-right: 10px;
+    color: #000;
+}
+
+.nav_bar li a:hover {
+    background-color: #eee;
+}
